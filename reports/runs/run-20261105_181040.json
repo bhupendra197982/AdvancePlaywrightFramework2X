@@ -1,0 +1,6 @@
+{
+  "runId": "20261105_181040",
+  "tests": {
+    "api › apisTests\\02_restfulbooker_apiHelper\\update-booking.spec.ts › @P0 @regression Level 2 (ApiHelper) - PUT update booking › PUT /booking/{id} replaces the booking with a Cookie token": "failed"
+  }
+}

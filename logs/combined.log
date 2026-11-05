@@ -98,3 +98,42 @@
 2026-11-05 17:36:43 [info] [booking-crud] Step 1: DELETE responded with status 201
 2026-11-05 17:36:43 [info] [booking-crud] Step 2: confirming booking 2715 is gone (expect 404)
 2026-11-05 17:36:43 [info] [booking-crud] Step 2: booking 2715 returns 404 as expected
+2026-11-05 17:45:32 [info] [booking-crud] Step 1: creating booking for E2E Journey
+2026-11-05 17:45:33 [info] [booking-crud] Step 1: created booking id 2654
+2026-11-05 17:45:33 [info] [booking-crud] Step 1: updating booking 2654 using fixture token
+2026-11-05 17:45:34 [info] [booking-crud] Step 2: reading booking 2654 back to verify persistence
+2026-11-05 17:45:34 [info] [booking-crud] Step 2: booking 2654 confirmed as "Updated"
+2026-11-05 17:45:35 [info] [booking-crud] Step 1: deleting booking 2654
+2026-11-05 17:45:36 [info] [booking-crud] Step 1: DELETE responded with status 201
+2026-11-05 17:45:36 [info] [booking-crud] Step 2: confirming booking 2654 is gone (expect 404)
+2026-11-05 17:45:36 [info] [booking-crud] Step 2: booking 2654 returns 404 as expected
+2026-11-05 17:48:29 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:10:18 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:10:19 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:10:19 [info] [create-booking] Step 2: verifying booking id 4867 echoes the payload
+2026-11-05 18:10:19 [info] [create-booking] Step 2: booking 4867 verified OK
+2026-11-05 18:11:08 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:11:09 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:11:09 [info] [create-booking] Step 2: verifying booking id 110 echoes the payload
+2026-11-05 18:11:09 [info] [create-booking] Step 2: booking 110 verified OK
+2026-11-05 18:11:38 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:11:39 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:11:39 [info] [create-booking] Step 2: verifying booking id 390 echoes the payload
+2026-11-05 18:11:39 [info] [create-booking] Step 2: booking 390 verified OK
+2026-11-05 18:11:57 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:11:58 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:11:58 [info] [create-booking] Step 2: verifying booking id 547 echoes the payload
+2026-11-05 18:11:58 [info] [create-booking] Step 2: booking 547 verified OK
+2026-11-05 18:12:26 [info] [booking-crud] Step 1: creating booking for E2E Journey
+2026-11-05 18:12:27 [info] [booking-crud] Step 1: created booking id 802
+2026-11-05 18:12:28 [info] [booking-crud] Step 1: updating booking 802 using fixture token
+2026-11-05 18:12:28 [info] [booking-crud] Step 2: reading booking 802 back to verify persistence
+2026-11-05 18:12:29 [info] [booking-crud] Step 2: booking 802 confirmed as "Updated"
+2026-11-05 18:12:29 [info] [booking-crud] Step 1: deleting booking 802
+2026-11-05 18:12:30 [info] [booking-crud] Step 1: DELETE responded with status 201
+2026-11-05 18:12:30 [info] [booking-crud] Step 2: confirming booking 802 is gone (expect 404)
+2026-11-05 18:12:30 [info] [booking-crud] Step 2: booking 802 returns 404 as expected
+2026-11-05 18:14:19 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:14:20 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:14:20 [info] [create-booking] Step 2: verifying booking id 1772 echoes the payload
+2026-11-05 18:14:20 [info] [create-booking] Step 2: booking 1772 verified OK
