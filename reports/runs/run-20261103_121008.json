@@ -1,0 +1,6 @@
+{
+  "runId": "20261103_121008",
+  "tests": {
+    "api › apisTests\\01_restfulbooker_raw\\01_basic_ping.spec.ts › ping request - GET": "passed"
+  }
+}

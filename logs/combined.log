@@ -79,3 +79,22 @@
 2026-10-15 19:03:19 [info] [e2e-checkout] Step 5a: filling guest details for Rebecca Ferry
 2026-10-15 19:03:19 [info] [e2e-checkout] Step 5b: reviewing the overview and finishing the order
 2026-10-15 19:03:20 [info] [e2e-checkout] Step 6: asserting the order is complete
+2026-11-03 12:13:29 [info] Created booking id: 1311
+2026-11-05 17:35:29 [info] [booking-crud] Step 1: creating booking for E2E Journey
+2026-11-05 17:35:30 [info] [booking-crud] Step 1: created booking id 2112
+2026-11-05 17:35:31 [info] [booking-crud] Step 1: updating booking 2112 using fixture token
+2026-11-05 17:35:32 [info] [booking-crud] Step 2: reading booking 2112 back to verify persistence
+2026-11-05 17:35:32 [info] [booking-crud] Step 2: booking 2112 confirmed as "Updated"
+2026-11-05 17:35:33 [info] [booking-crud] Step 1: deleting booking 2112
+2026-11-05 17:35:34 [info] [booking-crud] Step 1: DELETE responded with status 201
+2026-11-05 17:35:34 [info] [booking-crud] Step 2: confirming booking 2112 is gone (expect 404)
+2026-11-05 17:35:34 [info] [booking-crud] Step 2: booking 2112 returns 404 as expected
+2026-11-05 17:36:38 [info] [booking-crud] Step 1: creating booking for E2E Journey
+2026-11-05 17:36:40 [info] [booking-crud] Step 1: created booking id 2715
+2026-11-05 17:36:40 [info] [booking-crud] Step 1: updating booking 2715 using fixture token
+2026-11-05 17:36:41 [info] [booking-crud] Step 2: reading booking 2715 back to verify persistence
+2026-11-05 17:36:41 [info] [booking-crud] Step 2: booking 2715 confirmed as "Updated"
+2026-11-05 17:36:42 [info] [booking-crud] Step 1: deleting booking 2715
+2026-11-05 17:36:43 [info] [booking-crud] Step 1: DELETE responded with status 201
+2026-11-05 17:36:43 [info] [booking-crud] Step 2: confirming booking 2715 is gone (expect 404)
+2026-11-05 17:36:43 [info] [booking-crud] Step 2: booking 2715 returns 404 as expected

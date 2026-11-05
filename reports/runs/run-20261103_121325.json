@@ -1,0 +1,6 @@
+{
+  "runId": "20261103_121325",
+  "tests": {
+    "api › apisTests\\01_restfulbooker_raw\\02_post_operation.spec.ts › TC#1 @p0 - POST : Verify that create booking is working fine.": "passed"
+  }
+}
