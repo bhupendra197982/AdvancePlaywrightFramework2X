@@ -1,0 +1,6 @@
+{
+  "runId": "20261105_181918",
+  "tests": {
+    "api › apisTests\\02_restfulbooker_apiHelper\\create-booking.spec.ts › @P0 @regression Level 2 (ApiHelper) - POST create booking › POST /booking creates a booking and echoes it back": "passed"
+  }
+}

@@ -137,3 +137,72 @@
 2026-11-05 18:14:20 [info] [create-booking] Step 1: server responded with status 200
 2026-11-05 18:14:20 [info] [create-booking] Step 2: verifying booking id 1772 echoes the payload
 2026-11-05 18:14:20 [info] [create-booking] Step 2: booking 1772 verified OK
+2026-11-05 18:16:35 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:16:37 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:16:37 [info] [create-booking] Step 2: verifying booking id 2954 echoes the payload
+2026-11-05 18:16:37 [info] [create-booking] Step 2: booking 2954 verified OK
+2026-11-05 18:16:58 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:16:59 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:16:59 [info] [create-booking] Step 2: verifying booking id 3145 echoes the payload
+2026-11-05 18:16:59 [info] [create-booking] Step 2: booking 3145 verified OK
+2026-11-05 18:17:12 [info] [booking-crud] Step 1: creating booking for E2E Journey
+2026-11-05 18:17:13 [info] [booking-crud] Step 1: created booking id 3262
+2026-11-05 18:17:13 [info] [booking-crud] Step 1: updating booking 3262 using fixture token
+2026-11-05 18:17:14 [info] [booking-crud] Step 2: reading booking 3262 back to verify persistence
+2026-11-05 18:17:15 [info] [booking-crud] Step 2: booking 3262 confirmed as "Updated"
+2026-11-05 18:17:18 [info] [booking-crud] Step 1: deleting booking 3262
+2026-11-05 18:17:18 [info] [booking-crud] Step 1: DELETE responded with status 201
+2026-11-05 18:17:18 [info] [booking-crud] Step 2: confirming booking 3262 is gone (expect 404)
+2026-11-05 18:17:18 [info] [booking-crud] Step 2: booking 3262 returns 404 as expected
+2026-11-05 18:19:19 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:19:19 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:19:19 [info] [create-booking] Step 2: verifying booking id 4363 echoes the payload
+2026-11-05 18:19:19 [info] [create-booking] Step 2: booking 4363 verified OK
+2026-11-05 18:19:43 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:19:44 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:19:44 [info] [create-booking] Step 2: verifying booking id 4569 echoes the payload
+2026-11-05 18:19:44 [info] [create-booking] Step 2: booking 4569 verified OK
+2026-11-05 18:20:43 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:20:44 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:20:44 [info] [create-booking] Step 2: verifying booking id 5104 echoes the payload
+2026-11-05 18:20:44 [info] [create-booking] Step 2: booking 5104 verified OK
+2026-11-05 18:21:06 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:21:07 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:21:07 [info] [create-booking] Step 2: verifying booking id 154 echoes the payload
+2026-11-05 18:21:07 [info] [create-booking] Step 2: booking 154 verified OK
+2026-11-05 18:23:14 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:23:15 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:23:15 [info] [create-booking] Step 2: verifying booking id 1334 echoes the payload
+2026-11-05 18:23:15 [info] [create-booking] Step 2: booking 1334 verified OK
+2026-11-05 18:23:34 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:23:35 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:23:35 [info] [create-booking] Step 2: verifying booking id 1525 echoes the payload
+2026-11-05 18:23:35 [info] [create-booking] Step 2: booking 1525 verified OK
+2026-11-05 18:24:35 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:24:36 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:24:36 [info] [create-booking] Step 2: verifying booking id 2094 echoes the payload
+2026-11-05 18:24:36 [info] [create-booking] Step 2: booking 2094 verified OK
+2026-11-05 18:24:54 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:24:55 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:24:55 [info] [create-booking] Step 2: verifying booking id 2249 echoes the payload
+2026-11-05 18:24:55 [info] [create-booking] Step 2: booking 2249 verified OK
+2026-11-05 18:25:12 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:25:13 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:25:13 [info] [create-booking] Step 2: verifying booking id 2402 echoes the payload
+2026-11-05 18:25:13 [info] [create-booking] Step 2: booking 2402 verified OK
+2026-11-05 18:25:54 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:25:54 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:25:54 [info] [create-booking] Step 2: verifying booking id 2762 echoes the payload
+2026-11-05 18:25:54 [info] [create-booking] Step 2: booking 2762 verified OK
+2026-11-05 18:26:28 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:26:29 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:26:29 [info] [create-booking] Step 2: verifying booking id 3053 echoes the payload
+2026-11-05 18:26:29 [info] [create-booking] Step 2: booking 3053 verified OK
+2026-11-05 18:28:06 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:28:08 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:28:08 [info] [create-booking] Step 2: verifying booking id 4061 echoes the payload
+2026-11-05 18:28:08 [info] [create-booking] Step 2: booking 4061 verified OK
+2026-11-05 18:28:32 [info] [create-booking] Step 1: POST /booking for Helper Creator (price 640)
+2026-11-05 18:28:33 [info] [create-booking] Step 1: server responded with status 200
+2026-11-05 18:28:33 [info] [create-booking] Step 2: verifying booking id 4303 echoes the payload
+2026-11-05 18:28:33 [info] [create-booking] Step 2: booking 4303 verified OK

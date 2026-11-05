@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const ATTACH_SCREENSHOTS = process.env.ATTACH_SCREENSHOTS?.toLowerCase() === 'true';
-const ENABLE_TTA_REPORT = process.env.ENABLE_TTA_REPORT?.toLowerCase() !== 'false'; // Default: true
 
 function resolveBaseURL(): string {
   if (process.env.BASE_URL) return process.env.BASE_URL;
@@ -46,7 +45,7 @@ export default defineConfig({
   reporter: [
     ['html'],
     ['list'],
-    ...(ENABLE_TTA_REPORT ? [['./src/utils/CustomReporter.ts']] : []),
+    ['./src/utils/CustomReporter.ts'],
   ],
 
   use: {
